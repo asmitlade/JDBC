@@ -7,15 +7,11 @@ import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
-/* SQL> create table person_details(pid number(5) primary key, name varchar2(10),
-   													dob date, doj date, dom date);
-
-Table created.
-
-SQL> create sequence pid_auto_increment start with 1001 increment by 1;
-
-Sequence created.*/
-
+/** SQL> create table person_details(pid number(5) primary key, name varchar2(10), dob date, doj date, dom date);
+*Table created.
+*SQL> create sequence pid_auto_increment start with 1001 increment by 1;
+*Sequence created.
+*/
 public class InsertDOBintoOracleDB {
 	private static final String INSERT_DATE_ORACLE = "INSERT INTO PERSON_DETAILS VALUES(PID_AUTO_INCREMENT.NEXTVAL,?,?,?,?)";
 	public static void main(String[] args) {
