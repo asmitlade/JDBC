@@ -1,4 +1,4 @@
-package workingwithdate;
+package com.practice.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
