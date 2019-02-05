@@ -51,7 +51,7 @@ public class GUIEmployeeRegistrationAppwithOracle extends JFrame {
 	 * Create the frame.
 	 */
 	public GUIEmployeeRegistrationAppwithOracle() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("/favicon.ico"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("favicon.ico"));
 		setTitle("Employee Registration Application");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
